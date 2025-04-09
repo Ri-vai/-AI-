@@ -6,7 +6,6 @@ import { getFriends } from '@/services/friendService';
 import FriendItem from './FriendItem';
 import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
 
-// Cursor提示: "如何优化搜索功能的性能？"
 export default function FriendList() {
   const [friends, setFriends] = useState<Friend[]>([]);
   const [filteredFriends, setFilteredFriends] = useState<Friend[]>([]);
