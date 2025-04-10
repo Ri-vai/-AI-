@@ -23,7 +23,7 @@ export default function FriendsPage() {
             <h3 className="text-sm font-medium text-gray-700 mb-4">Cursor AI 功能演示提示</h3>
             <div className="text-xs space-y-2 text-gray-500">
               <p>• <strong>跨文件代码生成</strong>：尝试 "@index.tsx 计算并在 @page.tsx  显示好友数量"</p>
-              <p>• <strong>技术方案分析</strong>：尝试 "@index.tsx @FriendItem.tsx 分析这个好友列表的性能优化方案，先不用写出代码"</p>
+              <p>• <strong>技术方案分析</strong>：尝试 "@index.tsx @FriendItem.tsx 如果我要在这个列表使用虚拟列表，你帮我分析一下有哪些方案可以实现，先不用写出代码"</p>
               <p>• <strong>生成假数据</strong>：尝试 "@friendService.ts  请给好友列表增加10个随机好友数据，包含边界条件验证"</p>
               <p>• <strong>检测代码问题</strong>：尝试 "@index.tsx 检查FriendList组件中的代码是否存在什么问题，有什么可以优化的地方"</p>
               <p>• <strong>代码库智能检索</strong>：尝试 "@Codebase 这个项目的搜索框代码在哪"</p>
